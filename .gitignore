@@ -1,0 +1,34 @@
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+myenv/
+env/
+
+# Models / logs / large artifacts
+*.h5
+*.keras
+*.npy
+*.zip
+logs/
+events.out.tfevents.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+*_rsa
+*_rsa.pub
+kaggle.json
+
+# Keep my own report, exclude third-party papers
+*.pdf
+!report/WIDS_project_learnings.pdf
